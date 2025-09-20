@@ -8,5 +8,6 @@ export default defineConfig({
   plugins: [react(),tailwindcss()],
   alias:{
     "@": path.resolve(__dirname,"./src"),
-  }
+  },
+ // base:"/rukhaam-portfolio",
 })
